@@ -12,4 +12,4 @@ Data Strucures in JavaScript
 
 ⭕  Arrays can contain duplicate values whereas Set can't.
 ⭕  Insertion order is maintained in Arrays but it's not the case with Sets.
-⭕  Searchin and deleting an element in the Set is faster compared to Arrays.
+⭕  Searchin and deleting an element in the Set is faster compared to Arrays..
