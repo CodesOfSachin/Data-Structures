@@ -14,6 +14,12 @@
 > - Insertion order is maintained in Arrays but it's not the case with Sets.
 > - Searchin and deleting an element in the Set is faster compared to Arrays.
 
+##   Map
+
+> - A map is an unordered collection of key-value pairs. Both Keys and values can be of any data type
+> - To retrieve a value, you can use the corresponding key
+> - Maps are iterables. They can be used with a for of loop
+
 ##   Object vs Map
 > - Objects are unordered whereas maps are ordered.
 > - Keys in objects can only be string or symbol type where as in maps, they can be of any type.
