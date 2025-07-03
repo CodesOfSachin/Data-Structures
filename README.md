@@ -14,7 +14,7 @@
 > - Insertion order is maintained in Arrays but it's not the case with Sets.
 > - Searchin and deleting an element in the Set is faster compared to Arrays.
 
-##   Map
+### 2.  Map Data Structure:-
 
 > - A map is an unordered collection of key-value pairs. Both Keys and values can be of any data type
 > - To retrieve a value, you can use the corresponding key
@@ -26,3 +26,15 @@
 > - An object has a prototype and may contain a few default keys which may collide with your own keys if you're not careful. A Map on the other hand does not contain any keps by default.
 > - The numbers of items in an object must be determined manually where as it is readily available with the size property in a map.
 > - Apart from storing data, you can attach functionally to an object where as maps are restricted to just storing data.
+
+### 3.  Stack Data Structure:-
+
+> - The stack data structure is a sequential collection of elements that follows the principle of last in first out (LIFO)
+> - The last element inserted into the stack is first element to be removed.
+> - A stack of plates. The last plate placed on top of the stack is also the first plate removed from the stack.
+> - Stack is an abstract data type. It is defined by its behaviour rather than being a mathematical model.
+> - The Stack data structure supports two main operations
+>> - Push, which adds an element to the collection
+>> - Pop, which removes the most recently added element from the collection.
+
+![Stack visualization](<Images/Screenshot 2025-07-03 113416.png>)
