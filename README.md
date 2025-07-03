@@ -33,8 +33,32 @@
 > - The last element inserted into the stack is first element to be removed.
 > - A stack of plates. The last plate placed on top of the stack is also the first plate removed from the stack.
 > - Stack is an abstract data type. It is defined by its behaviour rather than being a mathematical model.
-> - The Stack data structure supports two main operations
+> ### The Stack data structure supports two main operations:-
 >> - Push, which adds an element to the collection
 >> - Pop, which removes the most recently added element from the collection.
 
 ![Stack visualization](<Images/Screenshot 2025-07-03 113416.png>)
+
+> ### Stack Usage:-
+> - Browser history tracking
+> - Undo Operation when typing
+> - Expression conversions
+> - Call stack in JavaScript runtime
+
+### 4.  Queue Data Structure:-
+
+> - The queue data structure is a sequential collection of elements that follows the principle of First in First out (FIFO).
+> - The first element inserted into the queue is first element to be removed.
+> - A queue of people. People enter the queue at one end (rear/tail) and leave the queue from the other end (front/head).
+> - Queue is an abstract data type. It is defined by its behaviour rather than being a mathematical model.
+> ### The Queue data structure supports two main operations:-
+>> - Enqueue, which adds an element to the rear/tail of the collection.
+>> - Dequeue, which removes an element from the front/head of the collection.
+
+![Queue visualization - Enqueue](Images/Enqueue.png)
+![Queue visualization - Dequeue](Images/Dequeue.png)
+
+> ### Queue Usage
+> - Printers
+> - CPU task scheduling
+> - Callback queue in JavaScript runtime 
