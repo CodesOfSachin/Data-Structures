@@ -8,11 +8,11 @@
 > - Sets do not maintain an insertion order.
 > - Sets are iterables. They can be used with a for of loop.
 
-##   Set vs Array
+>> ##   Set vs Array
 
-> - Arrays can contain duplicate values whereas Set can't.
-> - Insertion order is maintained in Arrays but it's not the case with Sets.
-> - Searchin and deleting an element in the Set is faster compared to Arrays.
+>> - Arrays can contain duplicate values whereas Set can't.
+>> - Insertion order is maintained in Arrays but it's not the case with Sets.
+>> - Searchin and deleting an element in the Set is faster compared to Arrays.
 
 ### 2.  Map Data Structure:-
 
@@ -20,12 +20,12 @@
 > - To retrieve a value, you can use the corresponding key
 > - Maps are iterables. They can be used with a for of loop
 
-##   Object vs Map
-> - Objects are unordered whereas maps are ordered.
-> - Keys in objects can only be string or symbol type where as in maps, they can be of any type.
-> - An object has a prototype and may contain a few default keys which may collide with your own keys if you're not careful. A Map on the other hand does not contain any keps by default.
-> - The numbers of items in an object must be determined manually where as it is readily available with the size property in a map.
-> - Apart from storing data, you can attach functionally to an object where as maps are restricted to just storing data.
+>> ##   Object vs Map
+>> - Objects are unordered whereas maps are ordered.
+>> - Keys in objects can only be string or symbol type where as in maps, they can be of any type.
+>> - An object has a prototype and may contain a few default keys which may collide with your own keys if you're not careful. A Map on the other hand does not contain any keps by default.
+>> - The numbers of items in an object must be determined manually where as it is readily available with the size property in a map.
+>> - Apart from storing data, you can attach functionally to an object where as maps are restricted to just storing data.
 
 ### 3.  Stack Data Structure:-
 
@@ -62,3 +62,21 @@
 > - Printers
 > - CPU task scheduling
 > - Callback queue in JavaScript runtime 
+
+### 5.  Circular Queue Data Structure:-
+
+> - The size of the queue is fixed and a single block of memory is used as if the first element is connected to the last element.
+> - Also referred to as circular buffer or ring buffer and follows the FIFO principle.
+> - A circular queue will reuse the empty block created during the dequeue operation.
+> - When working with queues of fixed maximum size, a circular queue is a great implmentation choice.
+> ### The Circular Queue data structure supports two main operations:-
+>> - Enqueue, which adds an element to the rear/tail of the collection.
+>> - Dequeue, which removes an element from the front/head of the collection.
+
+![Circular Queue visualization - Enqueue](<Images/Circular Enqueue.png>)
+![Circular Queue visualization - Dequeue](<Images/Circular Dequeue'.png>)
+
+> ### Queue Usage
+> - CLock
+> - Streaming data
+> - Traffic lights 
